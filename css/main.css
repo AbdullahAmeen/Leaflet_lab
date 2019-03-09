@@ -1,0 +1,57 @@
+html,body, #map {
+	height:100%;
+	width:100%;
+}
+
+
+#panel{
+    width: 30%;
+	height:10vh;
+	padding-top:5px;
+	display: inline-block;
+	vertical-align: bottom;
+    text-align: center;
+	
+
+}
+
+.range-slider {
+    width: 60%;
+	cursor:pointer;
+	padding-top:11px;
+	
+}
+
+#forward {
+    float: right;
+	height:50px;
+	width:60px;
+	border:2px solid black;
+	border-radius:15px;
+	background:white;
+	cursor:pointer;
+}
+
+#reverse {
+    float: left;
+	height:50px;
+	width:60px;
+	border:2px solid black;
+	border-radius:15px;
+	background:white;
+	cursor:pointer;
+}
+
+p{
+	font-size:18px;
+	background:;
+	color:black;
+}
+.leaflet-control-layers-selector{
+	background:red;
+	font-size:25px;
+}
+.leaflet-control-layers-overlays{
+	color:blue;
+	font-size:17px;
+}
